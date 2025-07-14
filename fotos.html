@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>📸</title>
+  <link rel="stylesheet" href="/fotos.css" />
+</head>
+
+<body>
+  <div class="spotify-container">
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7D0RhFcb3CrfPuTJ0obrod?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+
+  <div class="hearts">
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+  </div>
+
+  <div class="photos-section">
+    <h2>3 Anos de Amor 💖</h2>
+    <p class="intro-text">
+      Cada foto aqui é um pedacinho do nosso amor. <br>
+      São risadas, abraços, momentos só nossos, que contam a história mais bonita que eu já vivi: a nossa. 💕
+    </p>
+    <div id="photoGallery"></div>
+  </div>
+
+  <div id="lightbox" class="hidden">
+    <span class="close-btn" onclick="closeLightbox()">&times;</span>
+    <img id="lightbox-img" src="" alt="Foto grande">
+    <div class="nav-btn prev" onclick="prevImage()">←</div>
+    <div class="nav-btn next" onclick="nextImage()">→</div>
+  </div>
+
+  <script src="fotos.js"></script>
+  <div class="final-love-wrapper">
+    <div class="final-love-heart">💓</div>
+    <div class="final-love-text">Eu te amo, gatinha!</div>
+  </div>
+</body>
+</html>
